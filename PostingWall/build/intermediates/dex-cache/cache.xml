@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.71\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\pre-dexed\debug\classes-9e135ea9316a77f888aedba24d1a749b17254d28.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-e150f4dda37c1b61472069d0db8c62b83e3c0b2b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\exploded-aar\PostingWall\facebookSDK\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bf6699e553a3c849e690ed0a8fe13118433b1781">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\pre-dexed\debug\classes-bb7b7af72122d743d6e39b5a95c02dffc711057d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\pre-dexed\debug\classes-a0558af3ebdb1848d98495c406461acafbb5dbb3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\libs\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\pre-dexed\debug\retrofit-1.9.0-ed58b1696668e1a899c7dd554df9246426070e93.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\pre-dexed\debug\classes-b43fe6a822d60fe79b641e1aed58006d724a2863.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\pre-dexed\debug\classes-d49207aa04deda85d61359670e75b865d5a794a1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\pre-dexed\debug\classes-11c03f6f9e66abedc6da1246c75aff614bd7147e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-438dc06cc090200ff5c2ad231d215eefa99af887.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\pre-dexed\debug\gson-2.2.4-61cc589329e6f77bf8a133ca168bfdf53c3cc6fe.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\exploded-aar\PostingWall\facebookSDK\unspecified\libs\bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\PostingWall\postingWall\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-b264100762e79b0f1e88b12f7dbdfc9546cf63d9.jar" />
+    </item>
+
+</items>

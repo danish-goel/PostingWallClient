@@ -1,0 +1,291 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-feature#android.hardware.camera
+ADDED from AndroidManifest.xml:6:9
+	android:required
+		ADDED from AndroidManifest.xml:8:9
+	android:name
+		ADDED from AndroidManifest.xml:7:9
+uses-sdk
+ADDED from AndroidManifest.xml:10:5
+MERGED from MC_Project:facebookSDK:unspecified:20:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.google.android.gms:play-services:6.1.11:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:12:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:11:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:20:2
+	android:name
+		ADDED from AndroidManifest.xml:20:19
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:21:5
+	android:name
+		ADDED from AndroidManifest.xml:21:22
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:22:5
+	android:name
+		ADDED from AndroidManifest.xml:22:22
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from AndroidManifest.xml:23:5
+	android:name
+		ADDED from AndroidManifest.xml:23:22
+application
+ADDED from AndroidManifest.xml:25:5
+MERGED from MC_Project:facebookSDK:unspecified:24:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.google.android.gms:play-services:6.1.11:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:28:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:26:9
+	android:icon
+		ADDED from AndroidManifest.xml:27:9
+	android:theme
+		ADDED from AndroidManifest.xml:29:9
+activity#com.example.mc_project.Splash
+ADDED from AndroidManifest.xml:30:15
+	android:label
+		ADDED from AndroidManifest.xml:32:13
+	android:name
+		ADDED from AndroidManifest.xml:31:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:33:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:34:17
+	android:name
+		ADDED from AndroidManifest.xml:34:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:36:17
+	android:name
+		ADDED from AndroidManifest.xml:36:27
+activity#com.example.mc_project.login.Login
+ADDED from AndroidManifest.xml:39:9
+	android:label
+		ADDED from AndroidManifest.xml:41:13
+	android:name
+		ADDED from AndroidManifest.xml:40:13
+intent-filter#android.intent.category.DEFAULT+com.example.mc_project.login.Login
+ADDED from AndroidManifest.xml:42:13
+action#com.example.mc_project.login.Login
+ADDED from AndroidManifest.xml:43:17
+	android:name
+		ADDED from AndroidManifest.xml:43:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:45:17
+	android:name
+		ADDED from AndroidManifest.xml:45:27
+activity#com.example.mc_project.addPost.AddPost
+ADDED from AndroidManifest.xml:50:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:53:13
+	android:label
+		ADDED from AndroidManifest.xml:52:13
+	android:name
+		ADDED from AndroidManifest.xml:51:13
+intent-filter#android.intent.category.DEFAULT+com.example.mc_project.addPost.AddPost
+ADDED from AndroidManifest.xml:54:13
+action#com.example.mc_project.addPost.AddPost
+ADDED from AndroidManifest.xml:55:17
+	android:name
+		ADDED from AndroidManifest.xml:55:25
+activity#com.example.mc_project.homePage.FetchHomepage
+ADDED from AndroidManifest.xml:61:10
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:64:13
+	android:label
+		ADDED from AndroidManifest.xml:63:13
+	android:name
+		ADDED from AndroidManifest.xml:62:13
+intent-filter#android.intent.category.DEFAULT+com.example.mc_project.homePage.FetchHomepage
+ADDED from AndroidManifest.xml:65:13
+action#com.example.mc_project.homePage.FetchHomepage
+ADDED from AndroidManifest.xml:66:17
+	android:name
+		ADDED from AndroidManifest.xml:66:25
+activity#com.example.mc_project.homePage.Homepage
+ADDED from AndroidManifest.xml:71:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:74:13
+	android:label
+		ADDED from AndroidManifest.xml:73:13
+	android:name
+		ADDED from AndroidManifest.xml:72:13
+intent-filter#android.intent.category.DEFAULT+com.example.mc_project.homePage.Homepage
+ADDED from AndroidManifest.xml:75:13
+action#com.example.mc_project.homePage.Homepage
+ADDED from AndroidManifest.xml:76:17
+	android:name
+		ADDED from AndroidManifest.xml:76:25
+meta-data#android.app.default_searchable
+ADDED from AndroidManifest.xml:79:14
+	android:value
+		ADDED from AndroidManifest.xml:81:13
+	android:name
+		ADDED from AndroidManifest.xml:80:13
+activity#com.example.mc_project.map.Map
+ADDED from AndroidManifest.xml:84:10
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:87:13
+	android:label
+		ADDED from AndroidManifest.xml:86:13
+	android:name
+		ADDED from AndroidManifest.xml:85:13
+intent-filter#android.intent.category.DEFAULT+com.example.mc_project.map.Map
+ADDED from AndroidManifest.xml:88:13
+action#com.example.mc_project.map.Map
+ADDED from AndroidManifest.xml:89:17
+	android:name
+		ADDED from AndroidManifest.xml:89:25
+activity#com.example.mc_project.getLocation
+ADDED from AndroidManifest.xml:94:12
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:97:13
+	android:label
+		ADDED from AndroidManifest.xml:96:13
+	android:name
+		ADDED from AndroidManifest.xml:95:13
+intent-filter#android.action.getLocation+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:98:13
+action#android.action.getLocation
+ADDED from AndroidManifest.xml:99:17
+	android:name
+		ADDED from AndroidManifest.xml:99:25
+activity#com.example.mc_project.SearchActivity
+ADDED from AndroidManifest.xml:104:12
+	android:label
+		ADDED from AndroidManifest.xml:107:9
+	android:launchMode
+		ADDED from AndroidManifest.xml:105:9
+	android:name
+		ADDED from AndroidManifest.xml:106:9
+intent-filter#android.intent.action.SEARCH+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:111:9
+action#android.intent.action.SEARCH
+ADDED from AndroidManifest.xml:112:13
+	android:name
+		ADDED from AndroidManifest.xml:112:21
+meta-data#android.app.searchable
+ADDED from AndroidManifest.xml:120:9
+	android:resource
+		ADDED from AndroidManifest.xml:122:13
+	android:name
+		ADDED from AndroidManifest.xml:121:13
+activity#com.example.mc_project.singlePost.ViewSinglePost
+ADDED from AndroidManifest.xml:126:11
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:129:13
+	android:label
+		ADDED from AndroidManifest.xml:128:13
+	android:name
+		ADDED from AndroidManifest.xml:127:13
+intent-filter#android.intent.category.DEFAULT+com.example.mc_project.singlePost.ViewSinglePost
+ADDED from AndroidManifest.xml:130:13
+action#com.example.mc_project.singlePost.ViewSinglePost
+ADDED from AndroidManifest.xml:131:17
+	android:name
+		ADDED from AndroidManifest.xml:131:25
+activity#com.example.mc_project.singlePost.ViewSinglePlace
+ADDED from AndroidManifest.xml:136:11
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:139:13
+	android:label
+		ADDED from AndroidManifest.xml:138:13
+	android:name
+		ADDED from AndroidManifest.xml:137:13
+intent-filter#android.intent.category.DEFAULT+com.example.mc_project.singlePost.ViewSinglePlace
+ADDED from AndroidManifest.xml:140:13
+action#com.example.mc_project.singlePost.ViewSinglePlace
+ADDED from AndroidManifest.xml:141:17
+	android:name
+		ADDED from AndroidManifest.xml:141:25
+activity#com.example.mc_project.categoryPost.CategoryActivity
+ADDED from AndroidManifest.xml:147:12
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:149:13
+	android:name
+		ADDED from AndroidManifest.xml:148:13
+intent-filter#android.intent.category.DEFAULT+com.example.mc_project.categoryPost.CategoryActivity
+ADDED from AndroidManifest.xml:150:13
+action#com.example.mc_project.categoryPost.CategoryActivity
+ADDED from AndroidManifest.xml:151:17
+	android:name
+		ADDED from AndroidManifest.xml:151:25
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from AndroidManifest.xml:158:9
+	android:value
+		ADDED from AndroidManifest.xml:158:66
+	android:name
+		ADDED from AndroidManifest.xml:158:20
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:159:10
+	android:value
+		ADDED from AndroidManifest.xml:161:13
+	android:name
+		ADDED from AndroidManifest.xml:160:13
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from AndroidManifest.xml:162:10
+	android:value
+		ADDED from AndroidManifest.xml:164:13
+	android:name
+		ADDED from AndroidManifest.xml:163:13
+activity#com.facebook.LoginActivity
+ADDED from AndroidManifest.xml:165:6
+	android:label
+		ADDED from AndroidManifest.xml:165:58
+	android:name
+		ADDED from AndroidManifest.xml:165:16

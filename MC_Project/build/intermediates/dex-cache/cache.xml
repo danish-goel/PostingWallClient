@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\exploded-aar\MC_Project\facebookSDK\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b8eb591c7c36775a16771d4d5cb07655d8b131fc">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\pre-dexed\debug\classes-f6adcdcf82845aa5ea722992792b935c9222a8e3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\pre-dexed\debug\classes-f4af3efac758cc2e2b658479d5fc4427689d752f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\libs\Parse-1.8.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd491448169a0c142a786164b249139d2407a6f9">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\pre-dexed\debug\Parse-1.8.1-8a0fb2c16e6ef42f976cdad48d546ee7f5289610.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.11\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0f700f6802ba1a1f1fa7ac26d5db0666a89d75a6">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\pre-dexed\debug\classes-1499e8332d88d5f457cb7dc04fd9f67a66ffa66d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\exploded-aar\MC_Project\facebookSDK\unspecified\libs\bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-b276e4af1be5a497342ea79e8d2d41a7b4c7b905.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\libs\crashlytics.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e821eafa1bf489a26bdb71f95078c26785b37a1">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\pre-dexed\debug\crashlytics-a6919a297231ea663aebaefb29443ff8018dda3f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-64fc042c1cdafa2d138593b1c0342d89e261ca3a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\libs\ParseCrashReporting-1.8.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01cd6a9702d4fdba38c93426da8f2fffc738e107">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.8.1-442c41a14ee019e6e4f3e687f56392ec141b8233.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\pre-dexed\debug\classes-6abbba97e6bb8d4738fc036221606e78bebb9a58.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\libs\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-cc456bad6209728fff73e6190bf76ea69a89dacd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Danish Goel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Danish Goel\AndroidstudioProjects\MC_Project\mC_Project\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ad0a1d3736ca89f83a971bf73ff409f6fbdd1d20.jar" />
+    </item>
+
+</items>
