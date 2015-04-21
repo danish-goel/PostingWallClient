@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.postingwall"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="21" />
+
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.example.postingwall.permission.C2D_MESSAGE" />
+    <permission android:name="com.example.postingwall.permission.C2D_MESSAGE"
+    android:protectionLevel="signature" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="com.example.postingwall.GPSCheck"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.postingwall.getLocation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.postingwall.addpost.AddPost" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".addpost.NewPost"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.postingwall.addpost.NewPost" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".homepage.HomepageActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.postingwall.homepage.Homepage" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".homepage.MapView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.postingwall.homepage.MapView" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.postingwall.login.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.postingwall.login.Login" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+        android:name="com.example.postingwall.userpost.MyPosts"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="com.example.postingwall.userpost.MyPosts" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.postingwall.userlocation.MyLocations"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.postingwall.userlocation.MyLocations" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.postingwall.selectonmap.MapLocation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.postingwall.selectonmap.MapLocation" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.postingwall.SinglePost"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.postingwall.SinglePost" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+        <receiver
+            android:name=".GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+        <intent-filter>
+            <!-- Receives the actual messages. -->
+            <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            <!-- Receives the registration id. -->
+            <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+            <category android:name="com.example.postingwall" />
+        </intent-filter>
+
+        </receiver>
+
+        <service android:name=".GcmIntentService" />
+
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBCUO_9jMuB-Hd8Czb6XRipdM3L3CsbC_M" />
+        <activity android:name="com.facebook.LoginActivity" android:label="appname"></activity> <!-- appname -->
+
+
+
+    </application>
+
+
+
+</manifest>
